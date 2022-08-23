@@ -4,3 +4,6 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 == 概要
 機能Bの概要について説明する。
+
+=== 入力
+入力可能な疑似コード例を示す。
