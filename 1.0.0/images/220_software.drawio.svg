@@ -1,0 +1,27 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="552px" height="192px" viewBox="-0.5 -0.5 552 192" content="&lt;mxfile&gt;&lt;diagram id=&quot;9-OxsezKmRqBPJy4tucD&quot; name=&quot;ページ1&quot;&gt;xVVNc6MwDP01uu4AJsQcQ0K7lz3lsOnRE7vADOCM4yRkf31tkGso/chMdzcnpCcZS096AGTddI+KHcpfkosaooB3QDYQRWFEU/OwyHVAKI0HoFAVxyQPbKs/AsEA0VPFxXGSqKWsdXWYgnvZtmKvJxhTSl6mac+ynt56YIWYAds9q+fo74rrEtEwSX3gp6iKEq+m0XIINMwlYyfHknF5GUEkB7JWUurBarq1qC15jpfh3MMH0dfClGj1LQcolqGvrjfBTavotrI1j6zUTW280Jiiq/TO2MGPBXpPo8jGTjhwzhWdZ9lqnGFk/XmNWPZRntQey0hwrEwVArOQQ1vg6Bj29ShkI7S6mgQlaqar83RWDEdevOZ5VoyBxLxPEtZyZvUJXwo5ARpBRnqDeINSNFYbF1o7JJ1xreSp5YIjgzfzdBZKi+5TDjCaOMWg0EiIRVz82kYLzClHG5sE36dt+Q5tC1jFkCaQpz0l1CJ0CdmqN1aQZvcnKY7/I0lhOGv4CwW25oad05l1nrweretF2HtOhTepzjExll1yL9m5Yt4sEDU7tPDrYo0HSJeQx5BlkM6/aP98gcgtKgv/zgIZ1/8d+tjoH0vyFw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <path d="M 425 60 L 425 123.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 425 128.88 L 421.5 121.88 L 425 123.63 L 428.5 121.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="300" y="0" width="250" height="60" rx="9" ry="9" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="20px">
+            <text x="424.5" y="38.5">
+                コントローラ
+            </text>
+        </g>
+        <rect x="300" y="130" width="250" height="60" rx="9" ry="9" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="20px">
+            <text x="424.5" y="168.5">
+                外部出力
+            </text>
+        </g>
+        <path d="M 210 30 L 293.63 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 298.88 30 L 291.88 33.5 L 293.63 30 L 291.88 26.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="0" y="0" width="210" height="60" rx="9" ry="9" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="20px">
+            <text x="104.5" y="38.5">
+                入力受付
+            </text>
+        </g>
+    </g>
+</svg>
