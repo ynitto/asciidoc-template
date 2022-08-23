@@ -1,0 +1,6 @@
+{
+    "textlint.run": "onType",
+    "textlint.languages": [
+        "asciidoc"
+    ]
+}

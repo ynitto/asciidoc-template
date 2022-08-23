@@ -1,0 +1,13 @@
+ifndef::imagesdir[:imagesdir: ../images]
+
+== 機能仕様
+本システムに機能仕様を説明する。
+
+=== 機能A
+include::310_a.adoc[leveloffset=+2]
+
+=== 機能B
+include::320_b.adoc[leveloffset=+2]
+
+== 非機能仕様
+本システムにおける非機能使用を説明する。

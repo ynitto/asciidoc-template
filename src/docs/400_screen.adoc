@@ -1,0 +1,4 @@
+ifndef::imagesdir[:imagesdir: ../images]
+
+== メイン画面
+include::410_main.adoc[leveloffset=+1]

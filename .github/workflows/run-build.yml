@@ -1,0 +1,54 @@
+name: run-build
+on:
+  pull_request:
+    branches: [ develop, main ]
+    types: [ closed ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Setup node with cache
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      - name: Install packages via packages.json
+        run: npm install
+      - name: Build Asciidoc
+        run: npm run build
+      - name: Publish latest
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          keep_files: true
+      - name: Create tag
+        id: create-tag
+        if: github.base_ref == 'main' && startsWith(github.head_ref, 'release')
+        run: |
+          TAG_NAME=$(echo ${{ github.head_ref }} | sed 's/release\///')
+          echo "::set-output name=tag-name::${TAG_NAME}"
+          echo $TAG_NAME
+      - name: Publish versioned
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.base_ref == 'main' && startsWith(github.head_ref, 'release')
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: ${{ steps.create-tag.outputs.tag-name }}
+          keep_files: true
+      - name: Create release
+        if: github.base_ref == 'main' && startsWith(github.head_ref, 'release')
+        uses: softprops/action-gh-release@v1
+        with:
+          name: ${{ steps.create-tag.outputs.tag-name }}
+          tag_name: ${{ steps.create-tag.outputs.tag-name }}
+          generate_release_notes: true
+          files: dist/index.pdf
+          draft: false
+          prerelease: false

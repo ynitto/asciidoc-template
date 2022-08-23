@@ -1,0 +1,11 @@
+ifndef::imagesdir[:imagesdir: ../images]
+
+== ハードウェア構成
+本システムにおけるハードウェア構成を説明する。
+
+image::210_hardware.drawio.svg[options=inline,width=100%]
+
+== ソフトウェア構成
+本システムにおけるコンピューター内のソフトウェア構成を説明する。
+
+image::220_software.drawio.svg[options=inline,width=100%]

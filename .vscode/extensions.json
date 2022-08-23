@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "asciidoctor.asciidoctor-vscode",
+        "taichi.vscode-textlint",
+        "ms-vscode.live-server",
+        "hediet.vscode-drawio"
+    ]
+}

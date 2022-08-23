@@ -1,0 +1,6 @@
+ifndef::imagesdir[:imagesdir: ../images]
+
+機能Bについて詳細に説明する。
+
+== 概要
+機能Bの概要について説明する。

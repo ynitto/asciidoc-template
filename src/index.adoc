@@ -1,0 +1,43 @@
+:lang: ja
+:doctype: book
+:toc: left
+:toclevels: 3
+:toc-title: 目次
+:sectnums:
+:sectnumlevels: 4
+:sectlinks:
+:icons: font
+:source-highlighter: highlightjs
+:example-caption: 例
+:table-caption: 表
+:figure-caption: 図
+:appendix-caption: Apx.
+:imagesdir: ./images
+
+:docmaintitle: サンプルシステム
+:docsubtitle: 外部仕様書
+:orgname: Sample Co. Ltd.
+:author: サンプル開発部
+:revnumber: 1.0
+:revdate: 2022/08/17
+
+:scripts: cjk
+:docinfo: shared,private-header
+
+= サンプルシステム外部仕様書
+
+== 背景と目的
+include::docs/100_background.adoc[leveloffset=+1]
+
+== システム構成
+include::docs/200_architecture.adoc[leveloffset=+1]
+
+== 機能仕様
+include::docs/300_function.adoc[leveloffset=+1]
+
+== 画面仕様
+include::docs/400_screen.adoc[leveloffset=+1]
+
+[appendix]
+== 用語集
+include::docs/a10_glossary.adoc[leveloffset=+1]
