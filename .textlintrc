@@ -5,10 +5,12 @@
         "いいえ",
         "フラッシュ"
       ]
-    }
+    },
+    "comments": true
   },
   "rules": {
     "preset-ja-technical-writing": true,
+    "preset-jtf-style": true,
     "preset-ja-spacing": true,
     "no-start-duplicated-conjunction": true,
     "no-surrogate-pair": true,
